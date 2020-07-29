@@ -1,0 +1,4 @@
+dist
+node_modules
+ignore_help/makets
+src/admin.js
