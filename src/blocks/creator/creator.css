@@ -1,0 +1,30 @@
+@import url(./____container/creator__container.css);
+@import url(./__portret/creator__portret.css);
+@import url(./__content/creator__content.css);
+@import url(./__title/creator__title.css);
+@import url(./__description/creator__description.css);
+.creator {
+    background-color: #fff;
+    display: block;
+}
+
+@media screen and (max-width:690px) {
+    .creator {
+        min-height: 752px;
+        /* padding: 32px 16px; */
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .creator {
+        min-height: 354px;
+        /* padding: 40px; */
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .creator {
+        min-height: 624px;
+        /* padding: 80px 216px 80px 104px; */
+    }
+}

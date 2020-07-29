@@ -1,0 +1,28 @@
+.creator__title {
+    font-family: Roboto Slab;
+    font-weight: normal;
+}
+
+@media screen and (max-width:690px) {
+    .creator__title {
+        margin: 0 auto 16px 0;
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .creator__title {
+        margin: 0 auto 16px 0;
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .creator__title {
+        margin: 0 auto 24px 0;
+        font-size: 40px;
+        line-height: 46px;
+    }
+}

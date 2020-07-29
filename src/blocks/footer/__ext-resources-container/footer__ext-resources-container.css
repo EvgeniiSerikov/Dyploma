@@ -1,0 +1,12 @@
+.footer__ext-resources-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 72px;
+}
+
+@media screen and (max-width:690px) {
+    .footer__ext-resources-container {
+        margin: 0 0 0 32px;
+    }
+}

@@ -1,0 +1,9 @@
+@import url(./__item/navigation__item.css);
+@import url(./__list-items/navigation__list-items.css);
+@import url(./_type/navigation_footer.css);
+
+
+.navigation {
+    font-size: 18px;
+    line-height: 24px;
+}

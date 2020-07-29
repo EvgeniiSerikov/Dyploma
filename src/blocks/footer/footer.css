@@ -1,0 +1,48 @@
+@import url(./__site-platform/footer__site-platform.css);
+@import url(./__ext-resources-container/footer__ext-resources-container.css);
+@import url(./__ext-logotip/footer__ext-logotip.css);
+
+/* @import url(./__navigation/footer__navigation.css); */
+
+
+/* стиль секции*/
+
+.footer {
+    background-color: #fff;
+    display: flex;
+    /* width: 100%; */
+    /* flex-flow: row ;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+@media screen and (max-width:690px) {
+    .footer {
+        padding: 20px 16px;
+        height: 224px;
+        flex-flow: column-reverse wrap;
+        /* align-items: flex-start; */
+        align-items: stretch;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .footer {
+        padding: 0 40px;
+        height: 64px;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .footer {
+        padding: 0 104px;
+        height: 80px;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

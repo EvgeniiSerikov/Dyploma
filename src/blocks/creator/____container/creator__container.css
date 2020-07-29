@@ -1,0 +1,25 @@
+.creator__container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+@media screen and (max-width:690px) {
+    .creator__container {
+        margin: 32px 16px;
+        flex-flow: column;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .creator__container {
+        margin: 40px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .creator__container {
+        margin: 80px 104px;
+    }
+}

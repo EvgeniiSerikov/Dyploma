@@ -1,0 +1,7 @@
+
+@media screen and (max-width:600px){
+    .navigation__item {
+        /* line-height: 48px; */
+        margin-bottom: 30px;
+    }
+}

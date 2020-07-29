@@ -1,0 +1,27 @@
+.navigation_footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+@media screen and (min-width: 951px) {
+    .navigation_footer {
+        width: 406px;
+        flex-flow: row wrap;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .navigation_footer {
+        width: 360px;
+        flex-flow: row wrap;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .navigation_footer {
+        max-width: 184px;
+        flex-direction: column;
+        margin: 0 0 40px 0;
+    }
+}

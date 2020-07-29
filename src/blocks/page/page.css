@@ -1,0 +1,36 @@
+@import url(./_theme/page_theme_light.css);
+@font-face {
+    src: url(../../vendors/fonts/roboto-regular.woff) format('woff');
+    font-family: Roboto;
+}
+
+@font-face {
+    src: url(../../vendors/fonts/robotoslab-regular.woff) format('woff');
+    font-family: Roboto Slab;
+}
+
+@media screen and (min-width: 951px) {
+    .page {
+        max-width: 1440px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .page {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .page {
+        width: 320px;
+    }
+}
+
+.page {
+    margin: 0 auto;
+    font-weight: normal;
+    font-family: Roboto, Arial, sans-serif
+}
+
+;

@@ -1,0 +1,6 @@
+@import url(./_type/link_external-logo.css);
+.link {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.creator__portret {
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:690px) {
+    .creator__portret {
+        max-height: 272px;
+        max-width: 272px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:1200px) {
+    .creator__portret {
+        max-height: 232px;
+        max-width: 232px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .creator__portret {
+        max-height: 464px;
+        max-width: 464px;
+    }
+}

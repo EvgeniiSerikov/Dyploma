@@ -1,0 +1,9 @@
+.navigation__list-items {
+    display: inherit;
+    list-style: none;
+    justify-content: inherit;
+    flex-direction: inherit;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
