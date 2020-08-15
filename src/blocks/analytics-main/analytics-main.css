@@ -1,0 +1,25 @@
+@import url(./__title/analytics-main__title.css);
+@import url(./__title-request/analytics-main__title-request.css);
+@import url(./__common-stats/analytics-main__common-stats.css);
+@import url(./__stat-description/analytics-main__stat-description.css);
+.analytics-main {
+    max-width: 100%;
+}
+
+@media screen and (max-width:690px) {
+    .analytics-main {
+        margin: 16px 16px 24px 16px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .analytics-main {
+        margin: 64px 40px 40px 40px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .analytics-main {
+        margin: 80px 104px;
+    }
+}

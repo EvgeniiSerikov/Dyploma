@@ -1,0 +1,21 @@
+.navigation__list-items_place_footer {
+    justify-content: space-between;
+}
+
+@media screen and (max-width:690px) {
+    .navigation__list-items_place_footer {
+        flex-flow: column;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:960px) {
+    .navigation__list-items_place_footer {
+        flex-flow: row;
+    }
+}
+
+@media screen and (min-width: 961px) {
+    .navigation__list-items_place_footer {
+        flex-flow: row;
+    }
+}

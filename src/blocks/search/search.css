@@ -1,0 +1,29 @@
+@import url(./__annotation/search__annotation.css);
+@import url(./__field-inp/search__field-inp.css);
+@import url(./__find-btn/search__find-btn.css);
+@import url(./__search-bar/search__search-bar.css);
+@import url(./__title/search__title.css);
+.search {
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (max-width:690px) {
+    .search {
+        padding: 31px 16px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .search {
+        width: 452px;
+        margin: 40px auto 0px auto;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .search {
+        width: 608px;
+        margin: 80px auto 0 auto;
+    }
+}

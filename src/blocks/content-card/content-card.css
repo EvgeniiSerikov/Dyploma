@@ -1,0 +1,71 @@
+@import url(./__abstract/content-card__abstract.css);
+@import url(./__author-mail/content-card__author-mail.css);
+@import url(./__author-photo/content-card__author-photo.css);
+@import url(./__datestamp/content-card__datestamp.css);
+@import url(./__illustration/content-card__illustration.css);
+@import url(./__source/content-card__source.css);
+@import url(./__title/content-card__title.css);
+@import url(./_type/content-card_commit.css);
+@import url(./_type/content-card_news.css);
+@import url(./__main-content/content-card__main-content.css);
+.content-card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1440px) {
+    .content-card {
+        margin-bottom: 16px;
+        margin-right: 16px;
+    }
+    .content-card:nth-of-type(3n) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width:1439px) {
+    .content-card:nth-of-type(2n+1) {
+        margin-bottom: 16px;
+        margin-left: 16px;
+        margin-right: auto;
+    }
+    .content-card:nth-of-type(2n) {
+        margin-bottom: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width:1049px) {
+    .content-card {
+        margin-bottom: 16px;
+        margin-left: 16px;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width:999px) {
+    .content-card {
+        margin-bottom: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width:950px) {
+    .content-card {
+        margin-bottom: 8px;
+        margin-right: 8px;
+    }
+    .content-card:nth-of-type(3n) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .content-card {
+        margin-bottom: 8px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

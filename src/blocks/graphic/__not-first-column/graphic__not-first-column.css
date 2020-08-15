@@ -1,0 +1,19 @@
+.graphic__not-first-column {}
+
+@media screen and (max-width:690px) {
+    .graphic__not-first-column {
+        width: calc(100% - 80px);
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .graphic__not-first-column {
+        width: calc(100% - 104px);
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .graphic__not-first-column {
+        width: calc(100% - 104px);
+    }
+}

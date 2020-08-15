@@ -1,0 +1,26 @@
+.page__section-cap {
+    /* блока для описания стилей для шапки блоков (заголовок + ссылка на внешнюю страницу)*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 951px) {
+    .page__section-cap {
+        margin: 80px 104px 64px 104px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .page__section-cap {
+        margin: 40px 40px 32px 40px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .page__section-cap {
+        margin: 32px 16px 35px 16px;
+    }
+}

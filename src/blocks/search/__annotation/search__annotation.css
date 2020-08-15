@@ -1,0 +1,30 @@
+.search__annotation {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:690px) {
+    .search__annotation {
+        margin-bottom: 64px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .search__annotation {
+        margin-bottom: 24px;
+        font-size: 18px;
+        line-height: 24px;
+        width: 442px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .search__annotation {
+        margin-bottom: 32px;
+        font-size: 18px;
+        line-height: 24px;
+        width: 604px;
+    }
+}

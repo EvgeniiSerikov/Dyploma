@@ -1,0 +1,6 @@
+@import url(./__title/for-customers__title.css);
+@import url(./__description/for-customers__description.css);
+.for-customers {
+    display: flex;
+    flex-flow: column nowrap;
+}

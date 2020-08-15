@@ -1,0 +1,26 @@
+.for-customers__description {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@media screen and (max-width:690px) {
+    .for-customers__description {
+        margin: 30px auto 32px 16px;
+        max-width: 288px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .for-customers__description {
+        margin: 30px auto 60px 40px;
+        max-width: 688px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .for-customers__description {
+        margin: 24px auto 94px 104px;
+        max-width: 815px;
+    }
+}

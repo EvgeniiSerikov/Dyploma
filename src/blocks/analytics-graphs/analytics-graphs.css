@@ -1,0 +1,27 @@
+@import url(./__title/analytics-graphs__title.css);
+@import url(./__divider/analytics-graphs__divider.css);
+.analytics-graphs {
+    background-color: #F5F6F7;
+}
+
+@media screen and (max-width:690px) {
+    .analytics-graphs {
+        margin: 0;
+        padding: 24px 16px;
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .analytics-graphs {
+        margin: 0;
+        padding: 40px 40px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .analytics-graphs {
+        margin: 0;
+        padding: 80px 104px;
+    }
+}

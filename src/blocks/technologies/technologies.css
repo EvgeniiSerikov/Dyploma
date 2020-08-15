@@ -1,0 +1,10 @@
+@import url(./__container/technologies__container.css);
+@import url(./__item/techologies__item.css);
+@import url(./__tech-label/tecnologies__tech-label.css);
+@import url(./__tech-name/tecnologies__tech-name.css);
+@import url(./__title/techologies__title.css);
+.technologies {
+    background-color: #F5F6F7;
+    display: flex;
+    flex-flow: column nowrap;
+}

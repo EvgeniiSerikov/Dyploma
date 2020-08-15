@@ -1,0 +1,19 @@
+.graphic__first-column {}
+
+@media screen and (max-width:690px) {
+    .graphic__first-column {
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .graphic__first-column {
+        width: 104px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .graphic__first-column {
+        width: 104px;
+    }
+}

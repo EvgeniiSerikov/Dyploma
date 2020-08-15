@@ -1,0 +1,28 @@
+.content-card__abstract {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    margin: 0;
+}
+
+@media screen and (min-width: 951px) {
+    .content-card__abstract {
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .content-card__abstract {
+        margin-bottom: 12px;
+        max-height: 88px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .content-card__abstract {
+        margin-bottom: 5px;
+        max-height: 88px;
+        overflow: hidden;
+    }
+}

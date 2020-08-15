@@ -1,0 +1,13 @@
+@import url(./__caption-text/results__caption-text.css);
+@import url(./__caption-title/results__caption-title.css);
+@import url(./__loading-block/results__loading-block.css);
+@import url(./__loading-spinner/results__loading-spinner.css);
+@import url(./__not-found-block/results__not-found-block.css);
+@import url(./__not-found-jpg/results__not-found-jpg.css);
+@import url(./__content-cards-container/results__content-cards-container.css);
+@import url(./__load-additional-btn/results__load-additional-btn.css);
+@import url(./__news-cards-block/results__news-cards-block.css);
+.results {
+    background-color: #F5F6F7;
+    padding-top: 80px;
+}

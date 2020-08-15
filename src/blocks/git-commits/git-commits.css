@@ -1,0 +1,5 @@
+@import url(./__slider/git-commits__slider.css);
+.git-commits {
+    display: flex;
+    background-color: #F5F6F7;
+}

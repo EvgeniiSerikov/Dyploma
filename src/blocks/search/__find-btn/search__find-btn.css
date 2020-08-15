@@ -1,0 +1,44 @@
+.search__find-btn {
+    margin: 0;
+    padding: 0;
+    background: #2F71E5;
+    font-size: 18px;
+    line-height: 24px;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    border-radius: 100px;
+    border: none;
+    z-index: 2;
+}
+
+.search__find-btn:hover {
+    background: #347EFF;
+}
+
+.search__find-btn:active {
+    background: #2A65CC;
+}
+
+@media screen and (max-width:690px) {
+    .search__find-btn {
+        width: 288px;
+        height: 56px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .search__find-btn {
+        width: 160px;
+        height: 56px;
+        position: absolute;
+        right: 0px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .search__find-btn {
+        width: 168px;
+        height: 64px;
+        position: absolute;
+        right: 0px;
+    }
+}

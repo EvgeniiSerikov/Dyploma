@@ -1,0 +1,25 @@
+.content-card__datestamp {
+    font-family: Source Sans Pro;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+@media screen and (min-width: 951px) {
+    .content-card__datestamp {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .content-card__datestamp {
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .content-card__datestamp {
+        margin-bottom: 16px;
+    }
+}

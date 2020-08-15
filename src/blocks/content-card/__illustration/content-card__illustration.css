@@ -1,0 +1,28 @@
+.content-card__illustration {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 951px) {
+    .content-card__illustration {
+        width: 400px;
+        height: 270px;
+        margin-bottom: -4px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .content-card__illustration {
+        width: 224px;
+        height: 150px;
+        margin-bottom: -4px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .content-card__illustration {
+        width: 288px;
+        height: 196px;
+        margin-bottom: -4px;
+    }
+}

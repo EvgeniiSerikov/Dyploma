@@ -1,0 +1,28 @@
+.analytics-main__title {
+    margin: 0;
+    font-family: Roboto Slab;
+}
+
+@media screen and (max-width:690px) {
+    .analytics-main__title {
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .analytics-main__title {
+        font-size: 32px;
+        line-height: 34px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .analytics-main__title {
+        font-size: 40px;
+        line-height: 46px;
+        margin-bottom: 24px;
+    }
+}

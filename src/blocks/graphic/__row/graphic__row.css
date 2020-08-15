@@ -1,0 +1,21 @@
+.graphic__row {
+    display: flex
+}
+
+@media screen and (max-width:690px) {
+    .graphic__row {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .graphic__row {
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .graphic__row {
+        margin-bottom: 56px;
+    }
+}

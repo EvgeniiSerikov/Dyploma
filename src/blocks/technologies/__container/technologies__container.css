@@ -1,0 +1,36 @@
+.technologies__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:690px) {
+    .technologies__container {
+        max-width: 288px;
+        margin: 40px auto;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .technologies__container {
+        max-width: 680px;
+        margin: 40px auto;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width:1299px) {
+    .technologies__container {
+        max-width: 600px;
+        margin: 40px auto;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .technologies__container {
+        max-width: 600px;
+        margin-bottom: 88px;
+        margin-top: -70px;
+        margin-left: auto;
+        margin-right: 216px;
+    }
+}

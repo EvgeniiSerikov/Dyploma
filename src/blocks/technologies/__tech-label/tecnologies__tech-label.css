@@ -1,0 +1,11 @@
+@import url(./_type/tecnologies__tech-label_css.css);
+@import url(./_type/tecnologies__tech-label_html.css);
+@import url(./_type/tecnologies__tech-label_js.css);
+@import url(./_type/tecnologies__tech-label_webpack.css);
+.tecnologies__tech-label {
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

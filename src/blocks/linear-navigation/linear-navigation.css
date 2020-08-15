@@ -1,0 +1,24 @@
+@import url(./__main-page/linear-navigation__main-page.css);
+@import url(./__sub-page/linear-navigation__sub-page.css);
+.linear-navigation {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@media screen and (max-width:690px) {
+    .linear-navigation {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .linear-navigation {
+        margin: 32px auto 0 40px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .linear-navigation {
+        margin: 40px auto 0 104px;
+    }
+}

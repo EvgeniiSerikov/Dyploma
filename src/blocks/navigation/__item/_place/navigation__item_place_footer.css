@@ -1,0 +1,14 @@
+.navigation__item_place_footer {
+    margin-right: auto;
+}
+
+.navigation__item_place_footer:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width:690px) {
+    .navigation__item_place_footer {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+}

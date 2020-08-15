@@ -1,0 +1,31 @@
+@import url(../blocks/header/header.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/text/text.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/analytics-main/analytics-main.css);
+@import url(../blocks/linear-navigation/linear-navigation.css);
+@import url(../blocks/analytics-graphs/analytics-graphs.css);
+@import url(../blocks/graphic/graphic.css);
+body {
+    background-color: #F5F6F7;
+    margin: 0 auto;
+}
+
+p,
+h3,
+h2,
+h1,
+ul,
+section,
+div,
+span,
+blockquote,
+article,
+figure,
+figcaption,
+a {
+    /* border: 1px solid blue; */
+}

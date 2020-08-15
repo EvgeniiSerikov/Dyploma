@@ -1,0 +1,26 @@
+.graphic__scales {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graphic__scales:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:690px) {
+    .graphic__scales {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .graphic__scales {
+        margin: 16px 0 16px 104px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .graphic__scales {
+        margin: 16px 0 16px 104px;
+    }
+}

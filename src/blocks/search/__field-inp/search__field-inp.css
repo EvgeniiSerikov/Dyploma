@@ -1,0 +1,44 @@
+.search__field-inp {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    border-radius: 100px;
+    border: 1px solid #D1D2D6;
+    height: 54px;
+}
+
+.search__field-inp::placeholder {
+    color: #B6BCBF;
+}
+
+@media screen and (max-width:690px) {
+    .search__field-inp {
+        width: 254px;
+        margin-bottom: 16px;
+        padding: 0 16px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .search__field-inp {
+        width: calc(100% - 24px - 4px - 168px - 12px);
+        padding-left: 24px;
+        padding-right: calc(168px + 12px);
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .search__field-inp {
+        width: calc(100% - 168px - 24px - 4px - 12px);
+        padding-left: 24px;
+        height: 62px;
+        padding-right: calc(168px + 12px);
+        position: absolute;
+        z-index: 1;
+    }
+}

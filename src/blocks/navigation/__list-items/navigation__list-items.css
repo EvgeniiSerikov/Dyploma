@@ -1,8 +1,8 @@
+@import url(./_place/navigation__list-items_place_header.css);
+@import url(./_place/navigation__list-items_place_footer.css);
 .navigation__list-items {
-    display: inherit;
+    display: flex;
     list-style: none;
-    justify-content: inherit;
-    flex-direction: inherit;
     padding: 0;
     margin: 0;
     width: 100%;

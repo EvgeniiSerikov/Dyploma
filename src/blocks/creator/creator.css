@@ -10,21 +10,18 @@
 
 @media screen and (max-width:690px) {
     .creator {
-        min-height: 752px;
-        /* padding: 32px 16px; */
+        max-height: 752px;
     }
 }
 
 @media screen and (min-width: 691px) and (max-width:950px) {
     .creator {
-        min-height: 354px;
-        /* padding: 40px; */
+        max-height: 354px;
     }
 }
 
 @media screen and (min-width: 951px) {
     .creator {
-        min-height: 624px;
-        /* padding: 80px 216px 80px 104px; */
+        max-height: 624px;
     }
 }

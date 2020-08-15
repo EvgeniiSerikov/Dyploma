@@ -1,0 +1,7 @@
+.page__to-other-page-arrow {
+    width: 24px;
+    height: 24px;
+    background-image: url(../../../images/arrow-to.svg);
+    background-position: center;
+    background-size: cover;
+}

@@ -1,4 +1,8 @@
 @import url(./_theme/page_theme_light.css);
+@import url(./__section-cap/page__section-cap.css);
+@import url(./__section-redirect/page__section-redirect.css);
+@import url(./__section-title/page__section-title.css);
+@import url(./__to-other-page-arrow/page__to-other-page-arrow.css);
 @font-face {
     src: url(../../vendors/fonts/roboto-regular.woff) format('woff');
     font-family: Roboto;
@@ -7,6 +11,11 @@
 @font-face {
     src: url(../../vendors/fonts/robotoslab-regular.woff) format('woff');
     font-family: Roboto Slab;
+}
+
+@font-face {
+    src: url(../../vendors/fonts/sourcesanspro-regular.woff) format('woff');
+    font-family: Source Sans Pro;
 }
 
 @media screen and (min-width: 951px) {
@@ -30,6 +39,7 @@
 .page {
     margin: 0 auto;
     font-weight: normal;
+    font-style: normal;
     font-family: Roboto, Arial, sans-serif
 }
 

@@ -1,0 +1,7 @@
+.graphic__bar-inner {
+    display: flex;
+    align-items: center;
+    background-color: #2F71E5;
+    height: 24px;
+    padding-left: 3px;
+}

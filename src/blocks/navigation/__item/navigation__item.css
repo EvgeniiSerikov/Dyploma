@@ -1,7 +1,7 @@
-
-@media screen and (max-width:600px){
-    .navigation__item {
-        /* line-height: 48px; */
-        margin-bottom: 30px;
-    }
+@import url(./_place/navigation__item_place_footer.css);
+@import url(./_place/navigation__item_place_header.css);
+@import url(./_state/navigation__item_active-dark.css);
+@import url(./_state/navigation__item_active-light.css);
+.navigation__item {
+    font-weight: 500;
 }

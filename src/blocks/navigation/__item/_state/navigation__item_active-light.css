@@ -1,0 +1,22 @@
+.navigation__item_active-light {
+    border-bottom: solid 3px white;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:690px) {
+    .navigation__item_active-light {
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .navigation__item_active-light {
+        padding-bottom: 3px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .navigation__item_active-light {
+        padding-bottom: 27px;
+    }
+}

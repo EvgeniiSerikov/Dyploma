@@ -1,0 +1,27 @@
+.analytics-graphs__title {
+    margin: 0;
+}
+
+@media screen and (max-width:690px) {
+    .analytics-graphs__title {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .analytics-graphs__title {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .analytics-graphs__title {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 48px;
+    }
+}

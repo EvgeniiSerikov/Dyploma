@@ -1,0 +1,30 @@
+.content-card__main-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 951px) {
+    .content-card__main-content {
+        max-width: calc(100% - 2 * 24px);
+        margin: 24px;
+        margin-top: 18px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:950px) {
+    .content-card__main-content {
+        max-width: calc(100% - 2 * 16px);
+        margin: 16px;
+        margin-top: 14px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .content-card__main-content {
+        max-width: calc(100% - 2 * 16px);
+        margin: 16px;
+        margin-top: 14px;
+    }
+}
