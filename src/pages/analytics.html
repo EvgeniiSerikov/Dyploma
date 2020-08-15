@@ -1,19 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../vendors/normalize.css">
+    <meta name="description" content="NewsAnalyzer - анализ новостей">
+    <meta name="keyword" content="NewsAnalyzer, news, analyzer, analitics, новости, аналитика, анализ, статистика">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
-    <title>Document</title>
+    <link rel="shortcut icon" href="<%=require('../images/Favicon.svg')%>" type="image/svg">
+    <meta name="author" content="Evgenii. Front-end разработчик">
+    <title>NewsAnalyzer - Аналитика</title>
 </head>
 
 <body>
 
-    <h1>Hello ANALYTICS</h1>
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+    <div class="page page_theme_light">
 
+        <section class="header">
+            <p class="logo text_color_dark">NewsAnalyser</p>
+            <nav class="navigation navigation_header">
+                <ul class="navigation__list-items navigation__list-items_place_header">
+                    <li class="navigation__item navigation__item_place_header text_color_neutral">
+                        <a href="./main.html" class="link">Главная</a>
+                    </li>
+                    <li class="navigation__item navigation__item_place_header text_color_neutral"><a href="./about.html" class="link">О проекте</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="linear-navigation">
+            <span class="linear-navigation__main-page">Главная </span>
+            <span class="linear-navigation__sub-page text_color_neutral">/ Аналитика</span>
+        </section>
+
+        <section class="analytics-main">
+            <h2 class="analytics-main__title">Вы спросили: &laquo;<span class="analytics-main__title-request">Путешествия</span>&raquo;</h2>
+            <div class="analytics-main__common-stats">
+                <span class="analytics-main__stat-description">Новостей за неделю: </span>
+                <span class="analytics-main__stat-description text_weight_bold">34 324</span>
+            </div>
+            <div class="analytics-main__common-stats">
+                <span class="analytics-main__stat-description">Упоминаний в заголовках: </span>
+                <span class="analytics-main__stat-description text_weight_bold">235</span>
+            </div>
+        </section>
+
+        <main class="analytics-graphs">
+
+            <h2 class="analytics-graphs__title">Аналитика по дням</h2>
+
+            <div class="graphic__measures-row text_color_neutral">
+                <span class="graphic__measures graphic__first-column">Дата (август)</span>
+                <span class="graphic__measures graphic__not-first-column">Кол-во упоминаний</span>
+            </div>
+            <div class="analytics-graphs__divider"></div>
+            <div class="graphic__scales graphic__not-first-column text_color_neutral">
+                <span class="graphic__scale">0</span>
+                <span class="graphic__scale">25</span>
+                <span class="graphic__scale">50</span>
+                <span class="graphic__scale">75</span>
+                <span class="graphic__scale">100</span>
+            </div>
+
+            <div class="graphic__chart-area">
+                <div class="graphic__row" id="graphic__row-1">
+                    <p class="graphic__day graphic__first-column">19, пн</p>
+                    <div class="graphic__bar graphic__not-first-column text_color_light">
+                        <div class="graphic__bar-inner" style="width: 15%">15</div>
+                    </div>
+                </div>
+                <div class="graphic__row" id="graphic__row-2">
+                    <p class="graphic__day graphic__first-column">20, вт</p>
+                    <div class="graphic__bar graphic__not-first-column text_color_light">
+                        <div class="graphic__bar-inner" style="width: 18%">18</div>
+                    </div>
+                </div>
+                <div class="graphic__row" id="graphic__row-3">
+                    <p class="graphic__day graphic__first-column">21, ср</p>
+                    <div class="graphic__bar graphic__not-first-column text_color_light">
+                        <div class="graphic__bar-inner" style="width: 11%">11</div>
+                    </div>
+                </div>
+                <div class="graphic__row" id="graphic__row-4">
+                    <p class="graphic__day graphic__first-column">22, чт</p>
+                    <div class="graphic__bar graphic__not-first-column text_color_light">
+                        <div class="graphic__bar-inner" style="width: 39%">39</div>
+                    </div>
+                </div>
+                <div class="graphic__row" id="graphic__row-5">
+                    <p class="graphic__day graphic__first-column">23, пт</p>
+                    <div class="graphic__bar graphic__not-first-column text_color_light">
+                        <div class="graphic__bar-inner" style="width: 45%">45</div>
+                    </div>
+                </div>
+                <div class="graphic__row" id="graphic__row-6">
+                    <p class="graphic__day graphic__first-column">24, сб</p>
+                    <div class="graphic__bar graphic__not-first-column text_color_light">
+                        <div class="graphic__bar-inner" style="width: 73%">73</div>
+                    </div>
+                </div>
+                <div class="graphic__row" id="graphic__row-7">
+                    <p class="graphic__day graphic__first-column">25, вс</p>
+                    <div class="graphic__bar graphic__not-first-column text_color_light">
+                        <div class="graphic__bar-inner" style="width: 34%">34</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="graphic__scales graphic__not-first-column text_color_neutral">
+                <span class="graphic__scale">0</span>
+                <span class="graphic__scale">25</span>
+                <span class="graphic__scale">50</span>
+                <span class="graphic__scale">75</span>
+                <span class="graphic__scale">100</span>
+            </div>
+
+        </main>
+
+
+
+        <footer class="footer">
+            <div class="text_color_neutral">© 2020 Supersite</div>
+            <nav class="navigation navigation_footer footer__position_navigation">
+                <ul class="navigation__list-items navigation__list-items_place_footer">
+                    <li class="navigation__item navigation__item_place_footer"><a href="./main.html" class="link">Главная</a></li>
+                    <li class="navigation__item navigation__item_place_footer"><a href="./about.html" class="link">О проекте</a></li>
+                    <li class="navigation__item navigation__item_place_footer"><a href="https://praktikum.yandex.ru/" class="link">Яндекс.Практикум</a></li>
+                </ul>
+            </nav>
+            <div class="footer__ext-resources-container footer__position_ext-resources-container">
+                <a href="https://github.com/EvgeniiSerikov/Dyploma" class="link link_external-logo">
+                    <img src="<%=require('../images/GitHub_icon.svg')%>" alt="Логотип GitHub" class="footer__ext-logotip">
+                </a>
+                <a href="https://facebook.com/" class="link link_external-logo">
+                    <img src="<%=require('../images/Facebook_icon.svg')%>" alt="Логотип Facebook" class="footer__ext-logotip">
+                </a>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 
 </body>
 

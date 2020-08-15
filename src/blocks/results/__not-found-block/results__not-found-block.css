@@ -3,3 +3,9 @@
     height: 214px;
     margin: 80px auto;
 }
+
+@media screen and (max-width:690px) {
+    .results__not-found-block {
+        width: 280px;
+    }
+}

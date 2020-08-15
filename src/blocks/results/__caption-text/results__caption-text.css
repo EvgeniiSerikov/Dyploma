@@ -6,3 +6,9 @@
     line-height: 24px;
     max-width: 300px;
 }
+
+@media screen and (max-width:690px) {
+    .results__caption-text {
+        width: 280px;
+    }
+}

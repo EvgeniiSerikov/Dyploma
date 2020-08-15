@@ -1,3 +1,4 @@
+@import url(../vendors/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/search/search.css);
 @import url(../blocks/text/text.css);
@@ -10,6 +11,7 @@
 @import url(../blocks/main/main.css);
 @import url(../blocks/results/results.css);
 @import url(../blocks/content-card/content-card.css);
+@import url(../blocks/circle-preloader/circle-preloader.css);
 body {
     background-color: #F5F6F7;
     margin: 0 auto;

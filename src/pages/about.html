@@ -1,19 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../vendors/normalize.css">
+    <meta name="description" content="NewsAnalyzer - анализ новостей">
+    <meta name="keyword" content="NewsAnalyzer, news, analyzer, analitics, новости, аналитика, анализ, статистика">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
-    <title>Document</title>
+    <link rel="shortcut icon" href="<%=require('../images/Favicon.svg')%>" type="image/svg">
+    <title>NewsAnalyzer - О проекте</title>
 </head>
 
 <body>
 
-    <h1>Hello ABOUT</h1>
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+    <div class="page page_theme_light">
 
+        <section class="header">
+            <p class="logo text_color_dark">NewsAnalyser</p>
+            <nav class="navigation navigation_header">
+                <ul class="navigation__list-items navigation__list-items_place_header">
+                    <li class="navigation__item navigation__item_place_header text_color_neutral">
+                        <a href="./main.html" class="link">Главная</a>
+                    </li>
+                    <li class="navigation__item navigation__item_place_header text_color_dark navigation__item_active-dark"><a href="./about.html" class="link">О проекте</a></li>
+                </ul>
+            </nav>
+        </section>
+
+
+        <section class="for-customers">
+            <h2 class="for-customers__title">Клиентам</h2>
+            <p class="for-customers__description">Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель — показать, чему научился студент, какими технологиями владеет. Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым. Кроме того, добавлять новые
+                страницы и функциональность проще и быстрее, чем в проектах, выполненных по другим методологиям. Также сайт проще и дешевле поддерживать. Карточки с новостями приходят с сервера и обрабатываются асинхронно. То есть сайт продолжает работать,
+                пока от сервера приходит ответ. Это повышает удобство использования сервиса. При создании проекта была использована сборка технологией Webpack. Это современный подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее.
+                Также сайт работает в старых браузерах. Даже если посетители — пользователи старых операционных систем, у них не будет проблем с отображением. А значит, потенциальная аудитория возрастает. Проект был проверен экспертами Яндекс.Практикума.
+                Если вашему бизнесу нужен сайт, мы рекомендуем обратиться к этому студенту.</p>
+        </section>
+
+        <section class="technologies">
+            <h2 class="techologies__title">Используемые технологии</h2>
+            <div class="technologies__container">
+                <figure class="techologies__item">
+                    <figcaption class="tecnologies__tech-name">HTML</figcaption>
+                    <div class="tecnologies__tech-label tecnologies__tech-label_html"></div>
+                </figure>
+                <figure class="techologies__item">
+                    <figcaption class="tecnologies__tech-name">CSS</figcaption>
+                    <div class="tecnologies__tech-label tecnologies__tech-label_css"></div>
+                </figure>
+                <figure class="techologies__item">
+                    <figcaption class="tecnologies__tech-name">Java Script</figcaption>
+                    <div class="tecnologies__tech-label tecnologies__tech-label_js"></div>
+                </figure>
+                <figure class="techologies__item">
+                    <figcaption class="tecnologies__tech-name">Webpack</figcaption>
+                    <div class="tecnologies__tech-label tecnologies__tech-label_webpack"></div>
+                </figure>
+            </div>
+        </section>
+
+
+        <section class="creator">
+            <div class="creator__container">
+                <img src="<%=require('../images/creator_portret.png')%>" alt="Портрет автора сайта. Фотография" class="creator__portret">
+                <div class="creator__content">
+                    <h2 class="creator__title">Об авторе</h2>
+                    <p class="creator__description">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder
+                        of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="git-commits">
+            <div class="page__section-cap">
+                <h2 class="page__section-title">История коммитов из GitHub</h2>
+                <a class="page__section-redirect link">Открыть в  Github <div class="page__to-other-page-arrow"></div></a>
+            </div>
+            <div class="git-commits__slider"></div>
+
+        </section>
+
+
+
+        <footer class="footer">
+            <div class="text_color_neutral">© 2020 Supersite</div>
+            <nav class="navigation navigation_footer footer__position_navigation">
+                <ul class="navigation__list-items navigation__list-items_place_footer">
+                    <li class="navigation__item navigation__item_place_footer"><a href="./main.html" class="link">Главная</a></li>
+                    <li class="navigation__item navigation__item_place_footer"><a href="./about.html" class="link">О проекте</a></li>
+                    <li class="navigation__item navigation__item_place_footer"><a href="https://praktikum.yandex.ru/" class="link">Яндекс.Практикум</a></li>
+                </ul>
+            </nav>
+            <div class="footer__ext-resources-container footer__position_ext-resources-container">
+                <a href="https://github.com/EvgeniiSerikov/Dyploma" class="link link_external-logo">
+                    <img src="<%=require('../images/GitHub_icon.svg')%>" alt="Логотип GitHub" class="footer__ext-logotip">
+                </a>
+                <a href="https://facebook.com/" class="link link_external-logo">
+                    <img src="<%=require('../images/Facebook_icon.svg')%>" alt="Логотип Facebook" class="footer__ext-logotip">
+                </a>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 
 </body>
 

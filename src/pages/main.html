@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../vendors/normalize.css">
+    <meta name="description" content="NewsAnalyzer - анализ новостей">
+    <meta name="keyword" content="NewsAnalyzer, news, analyzer, analitics, новости, аналитика, анализ, статистика">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
-    <link rel="shortcut icon" href="../images/Favicon.svg" type="image/svg">
-    <title>Main</title>
+    <link rel="shortcut icon" href="<%=require('../images/Favicon.svg')%>" type="image/svg">
+    <title>NewsAnalyzer - Главная страница</title>
 </head>
 
 <body>
     <div class="page page_theme_light">
-
 
         <section class="main">
 
@@ -20,7 +20,7 @@
                 <p class="logo text_color_light">NewsAnalyser</p>
                 <nav class="navigation navigation_header">
                     <ul class="navigation__list-items navigation__list-items_place_header">
-                        <li class="navigation__item navigation__item_place_header navigation__item_active text_color_light">
+                        <li class="navigation__item navigation__item_place_header navigation__item_active-light text_color_light">
                             <a href="./main.html" class="link">Главная</a>
                         </li>
                         <li class="navigation__item navigation__item_place_header text_color_neutral"><a href="./about.html" class="link">О проекте</a></li>
@@ -36,27 +36,36 @@
                     <button class="search__find-btn text_color_light">Искать</button>
                 </form>
             </section>
+
         </section>
 
+
         <section class="results">
+
             <figure class="results__loading-block">
-                <div class="results__loading-spinner"> </div>
+                <div class="results__loading-spinner">
+                    <i class="circle-preloader"></i>
+                </div>
                 <figcaption class="results__caption-text text_color_neutral">Идет поиск новостей...</figcaption>
             </figure>
+
             <figure class="results__not-found-block">
                 <div class="results__not-found-jpg"></div>
                 <figcaption class="results__caption-title">Ничего не найдено</figcaption>
-                <figcaption class="results__caption-text text_color_neutral">К сожалению по вашему запросу ничего не найдено.</figcaption>
+                <figcaption class="results__caption-text text_color_neutral">К сожалению по вашему запросу ничего не найдено.
+                </figcaption>
             </figure>
 
             <div class="results__news-cards-block">
                 <div class="page__section-cap">
                     <h2 class="page__section-title">Результаты поиска </h2>
-                    <a class="page__section-redirect link">Посмотреть аналитику <div class="page__to-other-page-arrow"></div></a>
+                    <a class="page__section-redirect link">Посмотреть аналитику 
+                        <div class="page__to-other-page-arrow"></div>
+                    </a>
                 </div>
                 <div class="results__content-cards-container">
                     <a class="content-card content-card_news page_theme_light link">
-                        <img src="../images/card_image_08.png" alt="" class="content-card__illustration">
+                        <img src="<%=require('../images/card_image_08.png')%>" alt="" class="content-card__illustration">
                         <div class="content-card__main-content">
                             <span class="content-card__datestamp text_color_neutral">2 августа, 2019</span>
                             <h3 class="content-card__title">Национальное достояние – парки</h3>
@@ -65,7 +74,7 @@
                         </div>
                     </a>
                     <a class="content-card content-card_news page_theme_light link">
-                        <img src="../images/card_image_08.png" alt="" class="content-card__illustration">
+                        <img src="<%=require('../images/card_image_08.png')%>" alt="" class="content-card__illustration">
                         <div class="content-card__main-content">
                             <span class="content-card__datestamp text_color_neutral">2 августа, 2019</span>
                             <h3 class="content-card__title">Национальное достояние – парки</h3>
@@ -74,7 +83,7 @@
                         </div>
                     </a>
                     <a class="content-card content-card_news page_theme_light link">
-                        <img src="../images/card_image_08.png" alt="" class="content-card__illustration">
+                        <img src="<%=require('../images/card_image_08.png')%>" alt="" class="content-card__illustration">
                         <div class="content-card__main-content">
                             <span class="content-card__datestamp text_color_neutral">2 августа, 2019</span>
                             <h3 class="content-card__title">Национальное достояние – парки</h3>
@@ -83,7 +92,7 @@
                         </div>
                     </a>
                     <a class="content-card content-card_news page_theme_light link">
-                        <img src="../images/card_image_08.png" alt="" class="content-card__illustration">
+                        <img src="<%=require('')%>../images/card_image_08.png" alt="" class="content-card__illustration">
                         <div class="content-card__main-content">
                             <span class="content-card__datestamp text_color_neutral">2 августа, 2019</span>
                             <h3 class="content-card__title">Национальное достояние – парки</h3>
@@ -92,7 +101,7 @@
                         </div>
                     </a>
                     <a class="content-card content-card_news page_theme_light link">
-                        <img src="../images/card_image_08.png" alt="" class="content-card__illustration">
+                        <img src="<%=require('../images/card_image_08.png')%>" alt="" class="content-card__illustration">
                         <div class="content-card__main-content">
                             <span class="content-card__datestamp text_color_neutral">2 августа, 2019</span>
                             <h3 class="content-card__title">Национальное достояние – парки</h3>
@@ -108,7 +117,7 @@
 
         <section class="creator">
             <div class="creator__container">
-                <img src="../images/creator_portret.png" alt="Портрет автора сайта. Фотография" class="creator__portret">
+                <img src="<%=require('../images/creator_portret.png')%>" alt="Портрет автора сайта. Фотография" class="creator__portret">
                 <div class="creator__content">
                     <h2 class="creator__title">Об авторе</h2>
                     <p class="creator__description">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder
@@ -117,55 +126,27 @@
             </div>
         </section>
 
+
         <footer class="footer">
             <div class="text_color_neutral">© 2020 Supersite</div>
             <nav class="navigation navigation_footer footer__position_navigation">
                 <ul class="navigation__list-items navigation__list-items_place_footer">
                     <li class="navigation__item navigation__item_place_footer"><a href="./main.html" class="link">Главная</a></li>
-                    <li class="navigation__item navigation__item_place_footer"><a href="./about.html" class="link">О проекте</a></li>
+                    <li class="navigation__item navigation__item_place_footer"><a href="./about.html" class="link">О
+                            проекте</a></li>
                     <li class="navigation__item navigation__item_place_footer"><a href="https://praktikum.yandex.ru/" class="link">Яндекс.Практикум</a></li>
                 </ul>
             </nav>
             <div class="footer__ext-resources-container footer__position_ext-resources-container">
                 <a href="https://github.com/EvgeniiSerikov/Dyploma" class="link link_external-logo">
-                    <img src="../images/GitHub_icon.svg" alt="Логотип GitHub" class="footer__ext-logotip">
+                    <img src="<%=require('../images/GitHub_icon.svg')%>" alt="Логотип GitHub" class="footer__ext-logotip">
                 </a>
                 <a href="https://facebook.com/" class="link link_external-logo">
-                    <img src="../images/Facebook_icon.svg" alt="Логотип Facebook" class="footer__ext-logotip">
+                    <img src="<%=require('../images/Facebook_icon.svg')%>" alt="Логотип Facebook" class="footer__ext-logotip">
                 </a>
             </div>
         </footer>
 
-        <!-- <section class="creator">
-            <div class="creator__container">
-                <img src="../images/creator_portret.png" alt="Портрет автора сайта. Фотография" class="creator__portret">
-                <div class="creator__content">
-                    <h2 class="creator__title">Об авторе</h2>
-                    <p class="creator__description">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder
-                        of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <footer class="footer">
-            <div class="text_color_neutral">© 2020 Supersite</div>
-            <nav class="navigation navigation_footer footer__position_navigation">
-                <ul class="navigation__list-items">
-                    <li class="navigation__item"><a href="./main.html" class="link">Главная</a></li>
-                    <li class="navigation__item"><a href="./about.html" class="link">О проекте</a></li>
-                    <li class="navigation__item"><a href="https://praktikum.yandex.ru/" class="link">Яндекс.Практикум</a></li>
-                </ul>
-            </nav>
-            <div class="footer__ext-resources-container footer__position_ext-resources-container">
-                <a href="https://github.com/EvgeniiSerikov/Dyploma" class="link link_external-logo">
-                    <img src="../images/GitHub_icon.svg" alt="Логотип GitHub" class="footer__ext-logotip">
-                </a>
-                <a href="https://facebook.com/" class="link link_external-logo">
-                    <img src="../images/Facebook_icon.svg" alt="Логотип Facebook" class="footer__ext-logotip">
-                </a>
-            </div>
-        </footer> -->
 
     </div>
 

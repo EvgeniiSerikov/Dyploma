@@ -1,4 +1,2 @@
-import "../styles/main.css";
-
-let someStr = 'Изменил, сохранил, собрал';
-console.log(someStr);
+console.log('this is main page');
+import '../styles/main.css';
